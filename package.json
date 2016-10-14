@@ -1,19 +1,37 @@
 {
-  "name": "react-redux",
-  "version": "1.0.0",
-  "description": "react + redux + webpack 脚手架",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wzxm/react-redux.git"
-  },
-  "author": "wangzhe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wzxm/react-redux/issues"
-  },
-  "homepage": "https://github.com/wzxm/react-redux#readme"
+    "name": "react-redux",
+    "version": "1.0.0",
+    "description": "react + redux + webpack 脚手架",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack && webpack --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wzxm/react-redux.git"
+    },
+    "author": "wangzhe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wzxm/react-redux/issues"
+    },
+    "homepage": "https://github.com/wzxm/react-redux#readme",
+    "devDependencies": {
+        "babel-core": "^6.4.5",
+        "babel-loader": "^6.2.1",
+        "babel-preset-es2015": "^6.3.13",
+        "babel-preset-react": "^6.3.13",
+        "css-loader": "^0.25.0",
+        "react-hot-loader": "^3.0.0-beta.6",
+        "react-router": "^2.8.1",
+        "style-loader": "^0.13.1",
+        "webpack": "^2.1.0-beta.25",
+        "webpack-dev-server": "^1.16.2"
+    },
+    "dependencies": {
+        "react": "^15.3.2",
+        "react-dom": "^15.3.2",
+        "redux": "^3.6.0"
+    }
 }
