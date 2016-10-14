@@ -1,0 +1,19 @@
+{
+  "name": "react-redux",
+  "version": "1.0.0",
+  "description": "react + redux + webpack 脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzxm/react-redux.git"
+  },
+  "author": "wangzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzxm/react-redux/issues"
+  },
+  "homepage": "https://github.com/wzxm/react-redux#readme"
+}
